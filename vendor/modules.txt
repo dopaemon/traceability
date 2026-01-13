@@ -5,6 +5,9 @@ github.com/Microsoft/go-winio/internal/fs
 github.com/Microsoft/go-winio/internal/socket
 github.com/Microsoft/go-winio/internal/stringbuffer
 github.com/Microsoft/go-winio/pkg/guid
+# github.com/ProjectZKM/Ziren/crates/go-runtime/zkvm_runtime v0.0.0-20251001021608-1fe7b43fc4d6
+## explicit; go 1.24.0
+github.com/ProjectZKM/Ziren/crates/go-runtime/zkvm_runtime
 # github.com/StackExchange/wmi v1.2.1
 ## explicit; go 1.13
 github.com/StackExchange/wmi
@@ -60,7 +63,7 @@ github.com/consensys/gnark-crypto/field/hash
 github.com/consensys/gnark-crypto/field/pool
 github.com/consensys/gnark-crypto/internal/parallel
 github.com/consensys/gnark-crypto/utils/cpu
-# github.com/crate-crypto/go-eth-kzg v1.3.0
+# github.com/crate-crypto/go-eth-kzg v1.4.0
 ## explicit; go 1.22
 github.com/crate-crypto/go-eth-kzg
 github.com/crate-crypto/go-eth-kzg/internal/domain
@@ -88,11 +91,11 @@ github.com/deckarep/golang-set/v2
 ## explicit; go 1.16
 github.com/decred/dcrd/dcrec/secp256k1/v4
 github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa
-# github.com/ethereum/c-kzg-4844/v2 v2.1.0
+# github.com/ethereum/c-kzg-4844/v2 v2.1.5
 ## explicit; go 1.19
 github.com/ethereum/c-kzg-4844/v2/bindings/go
-# github.com/ethereum/go-ethereum v1.15.11
-## explicit; go 1.23.0
+# github.com/ethereum/go-ethereum v1.16.8
+## explicit; go 1.24.0
 github.com/ethereum/go-ethereum
 github.com/ethereum/go-ethereum/accounts
 github.com/ethereum/go-ethereum/accounts/abi
@@ -102,6 +105,7 @@ github.com/ethereum/go-ethereum/accounts/abi/bind/v2
 github.com/ethereum/go-ethereum/accounts/external
 github.com/ethereum/go-ethereum/accounts/keystore
 github.com/ethereum/go-ethereum/common
+github.com/ethereum/go-ethereum/common/bitutil
 github.com/ethereum/go-ethereum/common/hexutil
 github.com/ethereum/go-ethereum/common/math
 github.com/ethereum/go-ethereum/common/mclock
@@ -173,7 +177,7 @@ github.com/goccy/go-json/internal/runtime
 # github.com/golang-jwt/jwt/v5 v5.2.2
 ## explicit; go 1.18
 github.com/golang-jwt/jwt/v5
-# github.com/golang/snappy v0.0.5-0.20220116011046-fa5810519dcb
+# github.com/golang/snappy v1.0.0
 ## explicit
 github.com/golang/snappy
 # github.com/google/uuid v1.3.0
@@ -227,7 +231,7 @@ github.com/pelletier/go-toml/v2/unstable
 ## explicit
 github.com/shirou/gopsutil/cpu
 github.com/shirou/gopsutil/internal/common
-# github.com/supranational/blst v0.3.14
+# github.com/supranational/blst v0.3.16-0.20250831170142-f48500c1fdbe
 ## explicit; go 1.11
 github.com/supranational/blst/bindings/go
 # github.com/tklauser/go-sysconf v0.3.12
@@ -342,8 +346,8 @@ golang.org/x/net/internal/httpcommon
 ## explicit; go 1.23.0
 golang.org/x/sync/errgroup
 golang.org/x/sync/singleflight
-# golang.org/x/sys v0.31.0
-## explicit; go 1.23.0
+# golang.org/x/sys v0.36.0
+## explicit; go 1.24.0
 golang.org/x/sys/cpu
 golang.org/x/sys/unix
 golang.org/x/sys/windows
